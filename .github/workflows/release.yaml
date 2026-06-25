@@ -21,12 +21,12 @@ on:
         default: false
         type: boolean
 
-# Step 4: Apply least privilege permissions  
-# 👇 Uncomment in Step 4: Secure Authentication
-# permissions:
-#   contents: read      # Can read repository
-#   packages: write     # Can push Docker images
-#   id-token: write     # Can authenticate with cloud
+Step 4: Apply least privilege permissions  
+👇 Uncomment in Step 4: Secure Authentication
+permissions:
+  contents: read      # Can read repository
+  packages: write     # Can push Docker images
+  id-token: write     # Can authenticate with cloud
 
 jobs:
   # Stage 1: Configuration Validation (ALWAYS RUNS FIRST)
